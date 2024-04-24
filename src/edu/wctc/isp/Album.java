@@ -1,13 +1,9 @@
-package edu.wctc.isp.solution.part2;
+package edu.wctc.isp;
 
 import java.time.Duration;
 
 public interface Album extends Product {
-
     String getArtist();
 
-    String getFormattedPlayingTime();
-
     Duration getPlayingTime();
-
 }

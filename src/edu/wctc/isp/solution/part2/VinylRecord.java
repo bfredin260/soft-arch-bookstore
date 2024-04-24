@@ -35,7 +35,8 @@ public class VinylRecord implements Album {
         return cost;
     }
 
-    private String getFormattedPlayingTime() {
+    @Override
+    public String getFormattedPlayingTime() {
         long seconds = playingTime.getSeconds();
         return String.format(
                 "%d:%02d",
