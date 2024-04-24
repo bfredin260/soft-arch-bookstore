@@ -72,6 +72,11 @@ public class PaperbackBook implements Book {
     }
 
     @Override
+    public void setCost(double c) {
+        this.cost = c;
+    }
+
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder("Paperback Book: ");
         sb.append("\n Title: ").append(title);

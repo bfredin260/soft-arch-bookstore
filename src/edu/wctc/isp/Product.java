@@ -15,4 +15,6 @@ public interface Product {
     String getTitle();
 
     void order(int quantity);
+
+    void setCost(double c);
 }

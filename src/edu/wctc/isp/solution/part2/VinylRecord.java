@@ -78,6 +78,11 @@ public class VinylRecord implements Album {
     }
 
     @Override
+    public void setCost(double c) {
+        this.cost = c;
+    }
+
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder("Vinyl Record");
         sb.append("\n Title: ").append(title);

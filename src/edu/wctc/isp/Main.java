@@ -38,6 +38,9 @@ public class Main {
         System.out.println(book2);
         System.out.println("\n");
         System.out.println(record);
+    }
 
+    public static void doubleCost(Product p) {
+        p.setCost(p.getCost() * 2);
     }
 }

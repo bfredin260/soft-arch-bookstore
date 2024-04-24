@@ -34,4 +34,8 @@ public class Main {
             System.out.println("\n");
         }
     }
+
+    public static void doubleCost(Product p) {
+
+    }
 }

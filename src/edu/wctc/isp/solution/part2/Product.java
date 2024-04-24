@@ -16,4 +16,6 @@ public interface Product {
 
     void order(int quantity);
 
+    void setCost(double c);
+
 }
